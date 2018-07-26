@@ -72,7 +72,7 @@ createElement函数返回的就是 一个个React元素（所谓 虚拟DOM），
 }
 ```
 
-最后render函数根据虚拟DOM 渲染成真实dom
+最后render函数根据虚拟DOM 渲染成真实DOM
 
 更新需要 新的虚拟DOM 和 旧的虚拟DOM进行差异对比，也就是通过 dom diff 算法生成patch，以最小代价修改真实DOM 再次调用render 映射到真实DOM上
 
