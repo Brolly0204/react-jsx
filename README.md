@@ -41,6 +41,7 @@ React.createElement(
 createElement函数返回的就是 一个个React元素（所谓 虚拟DOM），其实就是一个普通JavaScript描述对象。这些虚拟DOM组成为虚拟DOM TREE，以树状结构来描述真实DOM TREE
 
 ```
+// 单层
 <div className='app'>hello</div>
 {
   type: 'div',
@@ -48,7 +49,7 @@ createElement函数返回的就是 一个个React元素（所谓 虚拟DOM），
   'hello'
 }
 
-多层
+// 多层
 <div className='app'>
   <h3>hello title</h3>
   hi react
